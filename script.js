@@ -198,3 +198,80 @@
 // document.getElementById("para").innerHTML = myArray;
 // let myArray = JSON.stringify(person);
 // document.getElementById("para").innerHTML = myArray;
+
+// ----------------------------DAY5---------
+
+//strings-methods
+
+// string - length;
+// let text = "faizan,ahmad,ali,1234,17,19";
+// let length = text.length;
+// document.write(length);
+
+//string-charAT(),charCodeAt(),
+// let text = "faizan,ahmad,ali,1234,17,19";
+// a = text[0];
+// a = text.charAt(0);
+// a = text.charCodeAt(0);
+// document.write(a);
+
+//string-uppercase(),lowercase()
+// let text = "faizan,ahmad,ali,1234,17,19";
+// a = text.toUpperCase();
+// a = text.toLowerCase();
+// document.write(a);
+
+//string extract parts
+//slice,substring,substr(start,end);
+
+// let text = "faizan,ahmad,ali,1234,17,19";
+// a = text.slice(0, 6);
+// a = text.substring(0, 6);
+// document.write(a);
+// document.write(text);
+
+//string concat
+
+// let text = "faizan,ahmad,ali,1234,17,19";
+// let text1 = "faisalabad";
+// let a = text.concat(text1);
+// document.write(a);
+
+//string-trim
+
+// let text = "        faizan,ahmad,ali,1234,17,19      ";
+// let text1 = text.trim();
+// document.write(text1);
+
+//string pad
+
+// let text = "a";
+// let text1 = text.padStart(5, "t");//tttta
+// let text1 = text.padEnd(10, "t");
+// document.write(text1);
+
+//replace
+
+// let text = "faizan,ahmad,ali,1234,17,19";
+// let text1 = text.replace("faizan", "faisalabad");
+// document.write(text1);
+
+//repeat
+
+// let text = "faizan,ahmad,ali,1234,17,19";
+// let text1 = text.repeat(3);
+// document.write(text1);
+
+//replace-all
+
+// let text = "faizan,ahmad,ali,1234,17,19,faizan";
+// let text1 = text.replaceAll("faizan", "faisalabad");
+// document.write(text1);
+
+//split
+
+// let text = "faizan,ahmad,ali,1234,17,19";
+// let text1 = text.split("ali");
+// let text1 = text.split(",");
+// let text1 = text.split("");
+// document.write(text1);
