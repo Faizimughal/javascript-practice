@@ -278,5 +278,66 @@
 // let text1 = text.split("");
 // document.write(text1);
 
-   
+// ----------------------------DAY6---------
+//string-search-methods
+//string index-of
 
+// let str = "faizan,123,12,13,faisalabad";
+// let a = str.indexOf("123");
+// document.write(a);
+
+//last-index-of
+
+// let str = "faizan,123,12,13,faisalabad,faizan";
+// let a = str.lastIndexOf("faizan");
+// let c = str.lastIndexOf("khurram");
+// let b = str.indexOf("faizan");
+// document.write(
+//   "value of indexof b =",
+//   b,
+//   "value of last indexof a =",
+//   a,
+//   "value of last indexof c =",
+//   c
+// );
+
+//string-search-method
+
+// let str = "faizan,123,12,13,faisalabad,faizan";
+// let a = str.search("faizan");
+// document.write(a);
+
+//string-match
+
+// let str = "faizan,123,12,13,faisalabad,faizan";
+// let a = str.match("khurram");
+// document.write("match value = ", a);
+
+//string-match-all
+
+// let str = "faizan,123,12,13,faisalabad,faizan,faizan";
+// const Iterator = str.matchAll("faizan");
+// b = Array.from(Iterator);
+// document.write("match-all value = ", b);
+
+//string includes
+
+// let str = "faizan,123,12,13,faisalabad,faizan";
+// let a = str.includes("khurram"); //false
+// let a = str.includes("faizan"); //true
+// document.write(a);
+
+//string startsWith
+
+// let str = "faizan,123,12,13,faisalabad,faizan";
+// let a = str.startsWith("faizan"); //true
+// let a = str.startsWith("faizan", 0);
+// let a = str.startsWith("faizan", 7); //false
+// document.write(a);
+
+//string endsWith
+
+let str = "faizan,123,12,13,faisalabad,faizan";
+let a = str.endsWith("faizan"); //true
+let b = str.endsWith("13"); //false
+document.write(a, b);
