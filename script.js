@@ -209,6 +209,7 @@
 // document.write(length);
 
 //string-charAT(),charCodeAt(),
+
 // let text = "faizan,ahmad,ali,1234,17,19";
 // a = text[0];
 // a = text.charAt(0);
@@ -216,6 +217,7 @@
 // document.write(a);
 
 //string-uppercase(),lowercase()
+
 // let text = "faizan,ahmad,ali,1234,17,19";
 // a = text.toUpperCase();
 // a = text.toLowerCase();
@@ -275,3 +277,6 @@
 // let text1 = text.split(",");
 // let text1 = text.split("");
 // document.write(text1);
+
+   
+
