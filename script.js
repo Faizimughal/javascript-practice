@@ -337,7 +337,38 @@
 
 //string endsWith
 
-let str = "faizan,123,12,13,faisalabad,faizan";
-let a = str.endsWith("faizan"); //true
-let b = str.endsWith("13"); //false
-document.write(a, b);
+// let str = "faizan,123,12,13,faisalabad,faizan";
+// let a = str.endsWith("faizan"); //true
+// let b = str.endsWith("13"); //false
+// document.write(a, b);
+
+//number-methods
+//number-tostring
+
+// let a = 12;
+// a = a.toString();
+// document.write(typeof a);
+
+//number-to-exponential
+
+// let a = 7.7967;
+// a = a.toExponential(2);
+// document.write(a);
+
+//number-to-fixed
+
+// let a = 7689;
+// a = a.toFixed(4);
+// document.write(a);
+
+//number-to-precision
+
+// let a = 345;
+// a = a.toPrecision(1);
+// document.write(a);
+
+//value-of
+
+// let a = 1267;
+// a = a.valueOf();
+// document.write(a);
