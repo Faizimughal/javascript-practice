@@ -372,3 +372,127 @@
 // let a = 1267;
 // a = a.valueOf();
 // document.write(a);
+
+// ----------------------------DAY7---------
+
+//number-properties
+
+// let x = Number.EPSILON;
+// document.write(x);
+
+//number.max-value
+
+// let x = Number.MAX_VALUE;
+// document.write(x);
+
+//number.min-value
+
+// let x = Number.MIN_VALUE;
+// document.write(x);
+
+// min-Infinity
+// max-infinity
+// NaN
+
+//arrays
+
+// let a = [12, 13, 14, 17, 20];
+// document.write(a);
+
+// let a = new Array(12, 13, 14, 17, 20);
+// document.write(a);
+
+// let a = [12, 13, 14, 17, 20];
+// document.write(a[3]);
+
+// let a = [];
+// a[0] = "faizan";
+// a[1] = "ahmad";
+// a[2] = "ali";
+// document.write(a);
+
+//concatination of an arrays
+
+// let a = [12, 13, 14, 17, 20];
+// let b = ["faizan", "ahmad", "ali"];
+// let c = a + b;
+// document.write(c);
+
+//Changing an Array Element
+
+// let a = [12, 13, 14, 17, 20];
+// a[0] = "faizan";
+// document.write(a);
+
+//Converting an Array to a String
+
+// let a = [12, 13, 14, 17, 20];
+// a = a.toString();
+// document.write(typeof a);
+
+//object
+
+// const person = { firstName: "John", lastName: "Doe", age: 46 };
+// document.write(person.firstName);
+
+//Array Elements Can Be Objects
+
+// const person = { firstName: "John", lastName: "Doe", age: 46 };
+// let ab = JSON.stringify(person);
+// let sum = (a, b) => {
+//   c = a + b;
+// };
+// sum(10, 20);
+// // document.write(c);
+
+// let a = [10, 20, 30, 40];
+
+// let arr = [];
+// arr[0] = ab;
+// arr[1] = a;
+// arr[2] = c;
+
+// document.write(arr);
+
+// array-length
+
+// let a = [12, 13, 14, 17, 20];
+// let b = a.length;
+// document.write(b);
+
+//array-sorting
+
+// let a = [12, 21, 18, 17, 20];
+// a.sort();
+// document.write(a);
+
+// Accessing the Last Array Element
+
+// let a = [12, 21, 18, 17, 20];
+// // document.write(a[0]);
+// a = a[a.length - 1];
+// document.write(a);
+
+//Adding Array Elements
+
+// let a = [12, 21, 18, 17, 20];
+// a.push("faizan");
+// a.pop();
+// document.write(a);
+
+//nested array & object
+
+// const myObj = {
+//   name: "John",
+//   age: 30,
+//   cars: [
+//     { name: "Ford", models: ["Fiesta", "Focus", "Mustang"] },
+//     { name: "BMW", models: ["320", "X3", "X5"] },
+//     { name: "Fiat", models: ["500", "Panda"] },
+//   ],
+// };
+
+// document.write(myObj.cars[0].models[2]);
+
+
+
