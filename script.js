@@ -566,11 +566,27 @@
 
 //array-find
 
-const numbers = [4, 9, 16, 25, 29];
-let first = numbers.find(myFunction);
+// const numbers = [4, 9, 16, 25, 29];
+// let first = numbers.find(myFunction);
 
-function myFunction(num) {
-  return num > 18;
-}
+// function myFunction(num) {
+//   return num > 18;
+// }
 
-document.write("First element in numbers greater than 18 is ", first);
+// document.write("First element in numbers greater than 18 is ", first);
+
+//array-findindex
+
+// const numbers = [4, 9, 16, 25, 29];
+// let first = numbers.findIndex(myFunction);
+// function myFunction(num) {
+//   return num > 18;
+// }
+// document.write("First element in numbers greater than 18 is ", first);
+
+//array-findlastindex
+
+const temp = [27, 28, 30, 40, 42, 35, 30];
+let pos = temp.findLastIndex((x) => x > 40);
+
+document.write("Last element in array greater than 40 is at index ", pos);
