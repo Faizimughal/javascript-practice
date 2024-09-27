@@ -494,5 +494,83 @@
 
 // document.write(myObj.cars[0].models[2]);
 
+// ----------------------------DAY8---------
 
+// array-at
 
+// let a = [12, 21, 18, 17, 20];
+// b = a.at(0);
+// document.write(b);
+
+// array-join
+
+// let a = [12, 21, 18, 17, 20];
+// let b =[10,13,14];
+// let c = a.join(b);
+// document.write(c);
+
+// array-shift
+
+// let a = [12, 21, 18, 17, 20];
+// a.shift();
+// document.write(a);
+
+//array-unshift
+
+// let a = [12, 21, 18, 17, 20];
+// a.unshift(0);
+// document.write(a);
+
+//array-delete
+
+// let a = [12, 21, 18, 17, 20];
+// b = a.delete();
+// document.write("value of array a=", a, "value of  b=", b);
+
+//array-concat
+
+// let a = [12, 13, 14, 15];
+// let b = ["faizan", "ali", "ahmad"];
+// let c = b.concat(a);
+// document.write(c);
+
+// array-copywithin
+
+// let a = [12, 13, 14, 15];
+// let b = a.copyWithin(0, 3);
+// document.write(b);
+
+//array-flat
+
+// let a = [12, [13, [14, 15]], 16, ["faizan", "ahamd"]];
+// let b = a.flat();
+// document.write(b);
+
+// array-splice
+
+// let a = [12, 13, 14, 15];
+// let b = a.splice(1, 2, "faizan", "ahmad");
+// document.write("value of array a=", a, "value of array b=", b);
+
+//array-slice
+
+// let a = [12, 13, 14, 15];
+// let b = a.slice(1, 3);
+// document.write("value of array a=", a, "value of array b=", b);
+
+//array-to-splice
+
+// let a = [12, 13, 14, 15];
+// let b = a.toSpliced(1, 2);
+// document.write("value of array a=", a, "value of array b=", b);
+
+//array-find
+
+const numbers = [4, 9, 16, 25, 29];
+let first = numbers.find(myFunction);
+
+function myFunction(num) {
+  return num > 18;
+}
+
+document.write("First element in numbers greater than 18 is ", first);
