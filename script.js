@@ -586,7 +586,104 @@
 
 //array-findlastindex
 
-const temp = [27, 28, 30, 40, 42, 35, 30];
-let pos = temp.findLastIndex((x) => x > 40);
+// const temp = [27, 28, 30, 40, 42, 35, 30];
+// let pos = temp.findLastIndex((x) => x > 40);
+// document.write("Last element in array greater than 40 is at index ", pos);
 
-document.write("Last element in array greater than 40 is at index ", pos);
+// ----------------------------DAY9---------
+
+//date-function
+
+// let a = Date();
+// document.write(a);
+
+//get-full-year
+
+// const d = new Date("2021-03-25");
+// d.getMonth();
+// document.write(d);
+
+//sin function
+
+// let a = Math.sin(90);
+// document.write(a);
+
+//math-random
+
+// let a = Math.random();
+// document.write(a);
+
+//power
+
+// let a = Math.pow(2, 3);
+// document.write(a);
+
+//logarithm
+
+// let a = Math.log(2);
+// document.write(a);
+
+//log base 10
+
+// let a = Math.log10(1000);
+// document.write(a);
+
+//math.floor-math-random
+
+// let a = Math.floor(Math.random() * 100);
+// document.write(a);
+
+//boolean
+
+// let a = Boolean(10 < 9);
+// document.write(a);    //false
+
+// let a = Boolean(1);
+// document.write(a); //true
+
+// let a = Boolean("");
+// document.write(a);   //false
+
+//if-else-if
+
+// let a = 30;
+// let b = 20;
+// if (a == b) {
+//   document.write("a is greater than b");
+// } else if (b < a) {
+//   document.write("b is less than a");
+// } else {
+//   document.write("error");
+// }
+
+//switch
+
+// example1
+
+// let a = "faizan";
+// switch (a) {
+//   case "faizan":
+//     document.write("a is greater than b");
+//     break;
+//   case "ali":
+//     document.write("b is less than a");
+//     break;
+//   default:
+//     document.write("error");
+// }
+
+//example 2
+
+let b = 20;
+let c = 10;
+// let a = b + c;
+switch ((a = b + c)) {
+  case 30:
+    document.write("true");
+    break;
+  case 20:
+    document.write("false");
+    break;
+  default:
+    document.write("error");
+}
