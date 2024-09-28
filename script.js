@@ -674,16 +674,16 @@
 
 //example 2
 
-let b = 20;
-let c = 10;
-// let a = b + c;
-switch ((a = b + c)) {
-  case 30:
-    document.write("true");
-    break;
-  case 20:
-    document.write("false");
-    break;
-  default:
-    document.write("error");
-}
+// let b = 20;
+// let c = 10;
+//  let a = b + c;
+// switch ((a = b + c)) {
+//   case 30:
+//     document.write("true");
+//     break;
+//   case 20:
+//     document.write("false");
+//     break;
+//   default:
+//     document.write("error");
+// }
