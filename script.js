@@ -717,3 +717,41 @@
 //     document.write("error");
 // }
 
+//----------------------------DAY10---------
+
+//loops
+//for-loop
+
+//tables
+
+// for (let i = 1; i <= 10; i++) {
+//   let a = i * 98;
+//   document.write("98*", i, "=", a, "<br>");
+// }
+
+//while-loop
+
+// let i = 1;
+// while (i <= 10) {
+//   i++;
+//   let a = i * 98;
+//   document.write("98*", i, "=", a, "<br>");
+// }
+
+//do-while
+
+let i = 0;
+do {
+  i++;
+  let a = i * 98;
+  document.write("98*", i, "=", a, "<br>");
+} while (i <= 10);
+
+// patterns
+
+// for (let a = 0; a <= 4; a++) {
+//   for (let b = a; b <= 3; b++) {
+//     document.write("*");
+//   }
+//   document.write("*", "<br>");
+// }
