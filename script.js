@@ -740,12 +740,12 @@
 
 //do-while
 
-let i = 0;
-do {
-  i++;
-  let a = i * 98;
-  document.write("98*", i, "=", a, "<br>");
-} while (i <= 10);
+// let i = 0;
+// do {
+//   i++;
+//   let a = i * 98;
+//   document.write("98*", i, "=", a, "<br>");
+// } while (i <= 10);
 
 // patterns
 
@@ -755,3 +755,72 @@ do {
 //   }
 //   document.write("*", "<br>");
 // }
+
+//----------------------------DAY11---------
+//sets
+
+// let a = new Set([12, 13, 14, 15, 16]); //intialize and declaration of a set
+
+// let a = new Set();   //empty set
+// a.add("ali");    //add values
+// a.add("faizan");
+// a.add("ahmad");
+// a.add("gulzar");
+// a.add("arslan");
+// for (const x of a) document.write(x + " ");
+// document.write(a.size);
+
+//has keyword
+
+// let a = new Set([12, 13, 14, 15, 16]); //intialize and declaration of a set
+// answer = a.has(12);
+// for (const x of a) document.write(x + " ");
+// document.write(answer);
+
+//values() method
+
+// let a = new Set([12, 13, 14, 15, 16]);
+// myIterator = a.values();
+// for (x of myIterator) document.write(x, "<br> ");
+
+//foreach()
+
+// let a = new Set([12, 13, 14, 15, 16]);
+// a.forEach((value) => {
+//   document.write(value + " ");
+// });
+
+//entries()
+
+// let a = new Set([12, 13, 14, 15, 16]);
+// let myIterator = a.entries();
+// for (let x of myIterator) {
+//   document.write(x + "<br>");
+// }
+
+//maps
+
+// let a = new Map(); //create a new map
+// a.set("faizan", 200); // give key-value pair to the map
+// a.set("ali", 400);
+// a.set("ahmad", 300);
+// //get value
+// document.write(a.get("faizan")); //returns 200
+
+// let a = new Map([
+//   //intialize and declare together maps
+//   ["faizan", 200],
+//   ["ali", 400],
+//   ["arslan", 500],
+//   ["ahmad", 300],
+// ]);
+// // document.write(a.get("faizan"));
+// // document.write(typeof a); //object
+// // document.write(a.size); //4
+// // a.delete("faizan"); //delete faizan
+// // document.write(a.get("faizan"));
+// // a.clear(); //clear the map
+
+// //has keyword
+// let b = a.has("faizan");
+// document.write(b);   //return true
