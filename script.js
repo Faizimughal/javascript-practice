@@ -824,3 +824,160 @@
 // //has keyword
 // let b = a.has("faizan");
 // document.write(b);   //return true
+
+//----------------------------DAY12---------
+
+// let a = new Map([
+//   ["faizan", 200],
+//   ["ahamd", 300],
+//   ["haider", 400],
+//   ["ali", 500],
+//   ["arsalan", 600],
+// ]);
+// a.forEach((value, key) => {
+//   document.write(key, "=", value, "<br>");
+// });
+
+//type-conversions
+
+//convert string into numbers.
+
+// let a = Number("3.14"); //by use of number function
+// let b = a * a;
+// document.write(b, "<br>");
+
+// let c = Number("");
+// d = c + c;
+// document.write(d);
+
+//number methods
+
+//parse-int
+
+// let num = 3.1234;
+// newnum = parseInt(num);
+// document.write(newnum);
+
+// parse-float
+
+// let num = 3.4;
+// newnum = parseFloat(num);
+// document.write(newnum);
+
+//numbers into string
+
+// let a = String(3.14);
+// document.write(a);
+
+//dates in to numbers
+
+// let a = new Date();
+// b = Number(a);
+// document.write(b);
+
+// let a = new Date();
+// a.getTime();
+// let b=Number(a);
+// document.write(b);
+
+//boolean into number
+
+// let a = Number(true);
+// document.write(a);   //1
+
+// ------------------destructuring-------------
+
+// destructuring of object
+
+// let person = {
+//   firstname: "faizan",
+//   lastname: "shahzad",
+//   age: 23,
+// };
+
+//destructuring
+// let { firstname, lastname, age, country = "pakistan" } = person;
+// document.write(firstname, " ", lastname, " ", age, " ", country);
+
+// Object Property Alias
+
+// let person1 = {
+//   firstname: "faizan",
+//   lastname: "shahzad",
+//   age: 23,
+// };
+// //destructuring
+// let { firstname: name } = person1;
+// document.write(name);
+
+//string destructuring
+
+// Create a String
+// let name = "faizan";
+
+// // Destructuring
+// let [a1, a2, a3, a4, a5, a6] = name;
+// document.write(a1, a2, a3, a4, a5, a6);
+
+//array-destructuring
+
+// let fruits = ["apple", "mango", "orange", "banana"];
+
+// //destructuring
+// let [fruit1, fruit2] = fruits;
+// document.write(fruit1, " ", fruit2);
+
+//display with index values //position values
+
+// let fruits = ["apple", "mango", "orange", "banana"];
+
+// //destructuring
+// let { [2]: fruit1, [3]: fruit2 } = fruits;
+// document.write(fruit1, " ", fruit2);
+
+//destructuring of maps
+
+// let a = new Map([
+//   ["faizan", 200],
+//   ["ahamd", 300],
+//   ["haider", 400],
+//   ["ali", 500],
+//   ["arsalan", 600],
+// ]);
+//way1
+// a.forEach((value, key) => {
+//   document.write(key, "=", value, "<br>");
+// });
+
+//way2
+// for (const [key, value] of a) {
+//   document.write(key, "=", value, "<br>");
+// }
+
+//swapping
+
+// let firstName = "faizan";
+// let lastName = "mehmood";
+
+// //destructuring or swapping
+
+// let [firstname, lastname] = [lastName, firstName];
+// document.write(firstName);
+
+// ------------------------regexp---------
+
+// let text = "visit w3schools";
+// let n = text.search("w3schools");
+// document.write(n);  //6
+
+// with regexp
+
+// let text = "visit w3schools";
+// let n = text.search(/w3schools/i);
+// document.write(n);   //6
+
+// replace
+
+// let text = "visit my home";
+// let newtext = text.replace("home", "office");
+// document.write(newtext);
