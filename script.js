@@ -981,3 +981,66 @@
 // let text = "visit my home";
 // let newtext = text.replace("home", "office");
 // document.write(newtext);
+
+//----------------------------DAY13---------
+
+// error-handling
+
+// try {
+//   alert("welcome guest");
+// } catch (error) {
+//   document.write("error occured");
+// }
+
+// function myFunction() {
+//   const message = document.getElementById("para");
+//   message.innerHTML = "";
+//   let x = document.getElementById("demo").value;
+//   try {
+//     if (x.trim() == "") throw "empty";
+//     if (isNaN(x)) throw "not a number";
+//     x = Number(x);
+//     if (x < 5) throw "too low";
+//     if (x > 10) throw "too high";
+//   } catch (error) {
+//     message.innerHTML = "input is " + error;
+//   } finally {
+//     document.getElementById("demo").value = "";
+//   }
+// }
+
+// Reference Error
+
+// let x = 5;
+// try {
+//   x = y + 1;    // y cannot be used (referenced)
+// } catch (err) {
+//   document.getElementById("para").innerHTML = err.name;
+// }
+
+//syntax error
+
+// try {
+//   eval("alert('Hello)"); // Missing ' will produce an error
+// } catch (err) {
+//   document.getElementById("para").innerHTML = err.name;
+// }
+
+// type error
+
+// let num = 1;
+// try {
+//   num.toUpperCase(); // You cannot convert a number to upper case
+// } catch (err) {
+//   document.getElementById("para").innerHTML = err.name;
+// }
+
+// URI (Uniform Resource Identifier) Error
+
+// try {
+//   decodeURI("%%%"); // You cannot URI decode percent signs
+// } catch (err) {
+//   document.getElementById("para").innerHTML = err.name;
+// }
+
+
