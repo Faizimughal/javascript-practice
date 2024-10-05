@@ -1062,28 +1062,28 @@
 // document.write("My car is" + mycar.age() + "years old");
 
 //class2
-class person {
-  constructor(name, year) {
-    this.name = name;
-    this.year = year;
-  }
-  country() {
-    return "pakistan is my country";
-  }
-  age() {
-    let date = new Date();
-    return date.getFullYear() - this.year;
-  }
-}
-const myperson = new person("Faizan", 2000);
-document.write(
-  "My name is " +
-    " " +
-    myperson.name +
-    ", " +
-    " I am " +
-    myperson.age() +
-    " years old. " +
-    " And " +
-    myperson.country()
-);
+// class person {
+//   constructor(name, year) {
+//     this.name = name;
+//     this.year = year;
+//   }
+//   country() {
+//     return "pakistan is my country";
+//   }
+//   age() {
+//     let date = new Date();
+//     return date.getFullYear() - this.year;
+//   }
+// }
+// const myperson = new person("Faizan", 2000);
+// document.write(
+//   "My name is " +
+//     " " +
+//     myperson.name +
+//     ", " +
+//     " I am " +
+//     myperson.age() +
+//     " years old. " +
+//     " And " +
+//     myperson.country() 
+// );
