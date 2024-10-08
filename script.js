@@ -1097,12 +1097,10 @@
 
 //object constructor
 
-function Person(firstname,lastname,age){
-this.firstname=firstname;
-this.lastname=lastname;
-this.age=age;
+function Person(firstname, lastname, age) {
+  this.firstname = firstname;
+  this.lastname = lastname;
+  this.age = age;
 }
-const myperson=new Person('faizan','mehmood',24);
-document.write('my name is '+myperson.firstname);
-
-
+const myperson = new Person("faizan", "mehmood", 24);
+document.write("my name is " + myperson.firstname);
