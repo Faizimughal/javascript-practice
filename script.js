@@ -1097,10 +1097,104 @@
 
 //object constructor
 
-function Person(firstname, lastname, age) {
-  this.firstname = firstname;
-  this.lastname = lastname;
-  this.age = age;
+// function Person(firstname, lastname, age) {
+//   this.firstname = firstname;
+//   this.lastname = lastname;
+//   this.age = age;
+// }
+// const myperson = new Person("faizan", "mehmood", 24);
+// document.write("my name is " + myperson.firstname);
+
+//----------------------------DAY16---------
+
+// Inheritance
+
+// Create a class named "Model" which will inherit the methods from the "Car" class:
+
+// class car {
+//   constructor(brand) {
+//     this.brand = brand;
+//   }
+//   show() {
+//     document.write("my car is" + " " + this.brand);
+//   }
+// }
+
+// class Model extends car {
+//   constructor(brand, mod) {
+//     super(brand);
+//     this.mod = mod;
+//   }
+//   present() {
+//     document.write("my car is " + this.brand + " model is " + this.mod);
+//   }
+// }
+// const mycar = new Model("toyata", "civic");
+// mycar.present();
+
+//asynchronous
+
+// function myfunction(some) {
+//   document.write(some);
+// }
+// function sum(value1, value2, myCallback) {
+//   let a = value1 + value2;
+//   myCallback(a);
+// }
+// sum(10, 20, myfunction);
+
+//set-timeout
+
+// function myfunction() {
+//   document.write("hello world");
+// }
+// setTimeout(myfunction, 3000);
+
+// setTimeout(function () {
+//   myfunction("hello world");
+// }, 3000);
+// function myfunction(value) {
+//   document.write(value);
+// }
+
+// set-intervals
+// function myfunction(value) {
+//   document.write(value);
+// }
+// setInterval(function () {
+//   myfunction("hello world" + "<br>");
+// }, 3000);
+
+// function myfunction() {
+//   let d = new Date();
+//   document.write(
+//     d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds() + "<br>"
+//   );
+// }
+// let intervalId = setInterval(myfunction, 1000);
+// setTimeout(() => {
+//   clearInterval(intervalId);
+//   document.write("timer close");
+// }, 10000);
+
+//promises
+
+function myfunction(value) {
+  document.write(value);
 }
-const myperson = new Person("faizan", "mehmood", 24);
-document.write("my name is " + myperson.firstname);
+let mypromise = new Promise(function (resolve, reject) {
+  let x = 0;
+  if (x == 0) {
+    resolve("ok");
+  } else {
+    reject("error");
+  }
+});
+mypromise.then(
+  function (value) {
+    myfunction(value);
+  },
+  function (error) {
+    myfunction(error);
+  }
+);
