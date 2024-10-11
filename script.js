@@ -1179,22 +1179,35 @@
 
 //promises
 
-function myfunction(value) {
-  document.write(value);
+// function myfunction(value) {
+//   document.write(value);
+// }
+// let mypromise = new Promise(function (resolve, reject) {
+//   let x = 0;
+//   if (x == 0) {
+//     resolve("ok");
+//   } else {
+//     reject("error");
+//   }
+// });
+// mypromise.then(
+//   function (value) {
+//     myfunction(value);
+//   },
+//   function (error) {
+//     myfunction(error);
+//   }
+// );
+
+//----------------------------DAY17---------
+
+//DOM (data Object Model)
+
+function myFunction() {
+  const x = document.getElementById("email").value;
+  x.innerHTML = "";
+  if (x == "") {
+    alert("please enter the email");
+  }
 }
-let mypromise = new Promise(function (resolve, reject) {
-  let x = 0;
-  if (x == 0) {
-    resolve("ok");
-  } else {
-    reject("error");
-  }
-});
-mypromise.then(
-  function (value) {
-    myfunction(value);
-  },
-  function (error) {
-    myfunction(error);
-  }
-);
+const y = (document.getElementById("label1").style.color = "green");
