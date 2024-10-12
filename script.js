@@ -1203,11 +1203,17 @@
 
 //DOM (data Object Model)
 
-function myFunction() {
-  const x = document.getElementById("email").value;
-  x.innerHTML = "";
-  if (x == "") {
-    alert("please enter the email");
-  }
-}
-const y = (document.getElementById("label1").style.color = "green");
+// function myFunction() {
+//   const x = document.getElementById("email").value;
+//   x.innerHTML = "";
+//   if (x == "") {
+//     alert("please enter the email");
+//   }
+// }
+// const y = (document.getElementById("span1").style.color = "red");
+
+//----------------------------DAY18---------
+
+// Overview of BOM & DOM
+
+//window /alerts /prompt /history-forward /history-backward
